@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Select">
+
+    <CheckBox
+        android:id="@+id/Jaroslav"
+        android:layout_width="119dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="16dp"
+        android:text="Jaroslav"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/Nikita"
+        android:layout_width="119dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Nikita"
+        app:layout_constraintStart_toEndOf="@+id/Jaroslav"
+        app:layout_constraintTop_toTopOf="parent" />
+    <CheckBox
+        android:id="@+id/Marina"
+        android:layout_width="119dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Marina"
+        app:layout_constraintStart_toEndOf="@+id/Nikita"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/Anna"
+        android:layout_width="119dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="16dp"
+        android:text="Anna"
+        app:layout_constraintEnd_toEndOf="@+id/Jaroslav"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/Jaroslav"
+        app:layout_constraintTop_toBottomOf="@+id/Jaroslav" />
+
+    <CheckBox
+        android:id="@+id/Egor"
+        android:layout_width="119dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Egor"
+        app:layout_constraintStart_toEndOf="@+id/Anna"
+        app:layout_constraintTop_toBottomOf="@+id/Nikita" />
+
+    <CheckBox
+        android:id="@+id/Andrey"
+        android:layout_width="119dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Andrey"
+        app:layout_constraintStart_toEndOf="@+id/Egor"
+        app:layout_constraintTop_toBottomOf="@+id/Marina" />
+
+    <CheckBox
+        android:id="@+id/Natasha"
+        android:layout_width="119dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="16dp"
+        android:text="Natasha"
+        app:layout_constraintStart_toStartOf="@+id/Anna"
+        app:layout_constraintTop_toBottomOf="@+id/Anna" />
+
+    <CheckBox
+        android:id="@+id/Anton"
+        android:layout_width="119dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Anton"
+        app:layout_constraintStart_toEndOf="@+id/Natasha"
+        app:layout_constraintTop_toBottomOf="@+id/Egor" />
+
+    <CheckBox
+        android:id="@+id/Dima"
+        android:layout_width="119dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Dima"
+        app:layout_constraintStart_toEndOf="@+id/Anton"
+        app:layout_constraintTop_toBottomOf="@+id/Andrey" />
+
+    <CheckBox
+        android:id="@+id/Darina"
+        android:layout_width="119dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="16dp"
+        android:text="Darina"
+        app:layout_constraintStart_toStartOf="@+id/Natasha"
+        app:layout_constraintTop_toBottomOf="@+id/Natasha" />
+
+    <CheckBox
+        android:id="@+id/Nadejda"
+        android:layout_width="119dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Nadejda"
+        app:layout_constraintStart_toEndOf="@+id/Darina"
+        app:layout_constraintTop_toBottomOf="@+id/Anton" />
+
+    <CheckBox
+        android:id="@+id/Alexander_K"
+        android:layout_width="119dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Alexander_K"
+        app:layout_constraintStart_toEndOf="@+id/Nadejda"
+        app:layout_constraintTop_toBottomOf="@+id/Dima" />
+
+    <CheckBox
+        android:id="@+id/Anastasia"
+        android:layout_width="119dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="16dp"
+        android:text="Anastasia"
+        app:layout_constraintStart_toStartOf="@+id/Darina"
+        app:layout_constraintTop_toBottomOf="@+id/Darina" />
+
+    <CheckBox
+        android:id="@+id/Stas"
+        android:layout_width="119dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Stas"
+        app:layout_constraintStart_toEndOf="@+id/Anastasia"
+        app:layout_constraintTop_toBottomOf="@+id/Nadejda" />
+
+    <CheckBox
+        android:id="@+id/Alexander_I"
+        android:layout_width="119dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Alexander_I"
+        app:layout_constraintStart_toEndOf="@+id/Stas"
+        app:layout_constraintTop_toBottomOf="@+id/Alexander_K" />
+
+    <Button
+        android:id="@+id/btToRandon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="@string/add"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Stas" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="Push to add people"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Stas" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
